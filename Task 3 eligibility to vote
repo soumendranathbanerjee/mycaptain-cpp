@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int age;
+    bool criminalrecord;
+    cout << "Enter age of a user:";
+    cin>>age;
+    cout << " Enter 1 if person has previous criminal record 0 if not"
+  ;
+   cin>>criminalrecord;  
+if (age >= 18) 
+{
+if(criminalrecord==1)
+{
+   cout<< "you are not eligible for voting";
+}
+else
+        cout << "You are eligible for voting";
+} 
+else 
+{
+        cout << "You are not eligible for voting";
+}
+
+    return 0;
+}
